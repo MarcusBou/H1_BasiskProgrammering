@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rumfanget", "Rumfanget\Rumf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Terningekastet", "Terningekastet\Terningekastet.csproj", "{438232D7-99F2-4C63-A8FE-53BF1D95AFB3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pythagaros", "Pythagaros\Pythagaros.csproj", "{5D686335-85F0-47C9-BE02-4FC5ED709759}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{438232D7-99F2-4C63-A8FE-53BF1D95AFB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{438232D7-99F2-4C63-A8FE-53BF1D95AFB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{438232D7-99F2-4C63-A8FE-53BF1D95AFB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D686335-85F0-47C9-BE02-4FC5ED709759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D686335-85F0-47C9-BE02-4FC5ED709759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D686335-85F0-47C9-BE02-4FC5ED709759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D686335-85F0-47C9-BE02-4FC5ED709759}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
