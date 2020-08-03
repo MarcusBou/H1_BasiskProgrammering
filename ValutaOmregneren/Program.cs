@@ -31,10 +31,10 @@ namespace ValutaOmregneren
         static void convert(double Dkk) 
         {
             //udregning For de forskellige valutaer
-            usd = Dkk * 6.32;
-            pund = Dkk * 8.28;
-            euro = Dkk * 7.44;
-            sek = Dkk * 0.72;
+            usd = Dkk * 0.15;
+            pund = Dkk * 0.12;
+            euro = Dkk * 0.13;
+            sek = Dkk * 1.38;
         }
     }
 }
