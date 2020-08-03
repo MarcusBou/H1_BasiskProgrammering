@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thermometer", "Thermometer\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValutaOmregneren", "ValutaOmregneren\ValutaOmregneren.csproj", "{D9860E78-F482-46BF-8E52-4E3A94D2439D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rumfanget", "Rumfanget\Rumfanget.csproj", "{7E1B17AB-98DD-42BE-A633-26469ED2B01A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D9860E78-F482-46BF-8E52-4E3A94D2439D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9860E78-F482-46BF-8E52-4E3A94D2439D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9860E78-F482-46BF-8E52-4E3A94D2439D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E1B17AB-98DD-42BE-A633-26469ED2B01A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E1B17AB-98DD-42BE-A633-26469ED2B01A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E1B17AB-98DD-42BE-A633-26469ED2B01A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E1B17AB-98DD-42BE-A633-26469ED2B01A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
