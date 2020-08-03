@@ -6,7 +6,22 @@ namespace H1_BasiskProgrammering
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Opgave A
+            int a = 12;
+            double b = 5.1;
+            Console.WriteLine(a+b);
+
+            //Opgave B
+
+            //int c = a + b;
+
+            //Koden vil melde fejl, da man ikke kan konvertere double Til integer
+
+            //Opgave C 
+
+            double d = a + b;
+
+            //koden kan køres da, de to samlagte tal vil udgive en double, og da D er en double er det en modtagelig variable
         }
     }
 }
