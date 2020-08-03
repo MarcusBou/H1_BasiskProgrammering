@@ -6,13 +6,16 @@ namespace Breve_Porto
 {
     class Program
     {
+        //attributer for vægt og priser per vægt
         static Double[] weightPossible = { 50, 100, 250, 500, 1000, 2000 };
         static Double[] weightPricing = { 10, 20, 40, 60, 60, 60 };
         static Double[] OutlandweightPricing = { 30, 30, 60, 60, 90, 90 };
         static string dest;
         static double thick, length, width, weight;
+
         static void Main(string[] args)
         {
+            //for locked brevets dataer
             Console.Write("Wished for destination: ");
             dest = Console.ReadLine();
             Console.Write("length of letter:");
@@ -30,11 +33,14 @@ namespace Breve_Porto
         static void sizeCheck()
         {
             dest.ToLower();
+            //checker om brevet er inde for den passelige størrelse
             if (length >= 16  && width >= 9 && length <= 60 && weight <= 2000)
             {
-                Console.WriteLine("Godkendt");
+                Console.WriteLine("Brever er Godkendt");
+                //ser om hvilket land brevet skal sendes til
                 if (dest == "danmark")
                 {
+                    //kører et for loop for at finde en pris fra Arrayet
                     for (int i = 0; i < weightPossible.Length; i++)
                     {
 
@@ -70,6 +76,7 @@ namespace Breve_Porto
             }
             else
             {
+                //error message vis dit brev ikke er godkendt
                 Console.WriteLine("ikke Godkendt brev størrelse");
             }
         }
