@@ -12,33 +12,22 @@ namespace Pythagaros
             Console.Write("din B værdi: ");
             b = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("din C værdig er: " +  pythagaros(a, b));
+            Console.WriteLine("din C værdig er: " + pythagaros(Math.Pow(a, 2), Math.Pow(b, 2)));
             
             //if statement så man kan se hvad er størst
-            if (AiA(a) > BiA(b))
+            if (Math.Pow(a, 2) > Math.Pow(b, 2))
             {
-                Console.WriteLine("A er størst med værdien: " + AiA(a));
+                Console.WriteLine("A er størst med værdien: " + Math.Pow(a, 2));
             }
-            else if (AiA(a) > BiA(b))
+            else if (Math.Pow(a, 2) > Math.Pow(b, 2))
             {
-                Console.WriteLine("B er størst med værdien: " + BiA(b));
+                Console.WriteLine("B er størst med værdien: " + Math.Pow(b, 2));
             }
         }
-        //pythagaros udregningen
+
         static double pythagaros(double A, double B)
         {
-            return AiA(A) + BiA(B);
-        }
-
-        //udregning af i anden
-        static double AiA(double A)
-        {
-            return A * A;
-        }
-
-        static double BiA(double B)
-        {
-            return B * B;
+            return A + B;
         }
     }
 }
