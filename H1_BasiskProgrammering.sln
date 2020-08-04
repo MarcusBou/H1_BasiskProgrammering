@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array Øvelse 2", "Array Ø
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array øvelse 4", "Array øvelse 4\Array øvelse 4.csproj", "{6FA6DDDD-3752-43B7-9025-62251BEACE9B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array øvelse 3", "Array øvelse 3\Array øvelse 3.csproj", "{06D56AD4-1B48-4147-B194-4FED82C9DBE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{6FA6DDDD-3752-43B7-9025-62251BEACE9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FA6DDDD-3752-43B7-9025-62251BEACE9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FA6DDDD-3752-43B7-9025-62251BEACE9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06D56AD4-1B48-4147-B194-4FED82C9DBE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06D56AD4-1B48-4147-B194-4FED82C9DBE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06D56AD4-1B48-4147-B194-4FED82C9DBE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06D56AD4-1B48-4147-B194-4FED82C9DBE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
