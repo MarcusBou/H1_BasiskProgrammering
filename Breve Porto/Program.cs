@@ -47,12 +47,12 @@ namespace Breve_Porto
                         if (weight <= weightPossible[0])
                         {
                             Console.WriteLine("Price to send letter: " + weightPricing[i]);
-                            break;
+                            i = 100;
                         }
                         else if (weight >= weightPossible[i] && weight <= weightPossible[i + 1])
                         {
                             Console.WriteLine("Price to send letter: " + weightPricing[i + 1]);
-                            break;
+                            i = 100; 
                         }
                     }
                 }
@@ -64,12 +64,12 @@ namespace Breve_Porto
                         if (weight <= weightPossible[0])
                         {
                             Console.WriteLine("Price to send letter: " + OutlandweightPricing[i]);
-                            break;
+                            i = 100;
                         }
                         else if (weight >= weightPossible[i] && weight <= weightPossible[i + 1])
                         {
                             Console.WriteLine("Price to send letter: " + OutlandweightPricing[i + 1]);
-                            break;
+                            i = 100;
                         }
                     }
                 }

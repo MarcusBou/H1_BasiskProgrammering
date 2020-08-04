@@ -27,7 +27,7 @@ namespace Pythagaros
 
         static double pythagaros(double A, double B)
         {
-            return A + B;
+            return Math.Sqrt(A + B);
         }
     }
 }
