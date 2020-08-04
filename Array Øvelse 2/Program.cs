@@ -9,6 +9,7 @@ namespace Array_Øvelse_2
         static string[] boyName = { "William", "Oliver", "Noah", "Emil", "Victor", "Magnus", "Frederik", "Mikkel", "Lucas", "Alexander", "Oscar", "Mathias",
                                     "Sebastian", "Malthe", "Elias", "Christian", "Mads", "Gustav", "Villads", "Tobias" };
         static string searchWord;
+        static int[] Words = new int[20];
         static void Main(string[] args)
         {
             Array.Sort(boyName);
@@ -18,7 +19,12 @@ namespace Array_Øvelse_2
             }
             Console.Write("search: ");
             searchWord = Console.ReadLine();
-            Console.WriteLine(boyName.Contains(searchWord));
+            Console.Clear();
+            for (int i = 0; i < boyName.Length; i++)
+            {
+                Words[i] = boyName[i].IndexOfAny(searchWord.ToCharArray());
+                Console.WriteLine(Words[i]);
+            }
             Console.ReadKey();
         }
     }
