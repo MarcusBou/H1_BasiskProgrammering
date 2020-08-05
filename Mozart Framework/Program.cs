@@ -56,7 +56,7 @@ namespace Mozart_Framework
         static void Main(string[] args)
         {
             {
-                for (int i = 0; i < Minuetten.GetUpperBound(0) + 1; i++)
+                for (int i = 0; i < Minuetten.GetLength(0) + 1; i++)
                 {
                     dice1 = random.Next(1, 7);
                     dice2 = random.Next(1, 7);
@@ -66,9 +66,10 @@ namespace Mozart_Framework
                     Console.WriteLine("der spilles: M" + Minuetten[i, dice1 + dice2 - 2]);
                     soundPlayer.PlaySync();
                 }
-                for (int i = 0; i < Trioen.GetUpperBound(0) + 1; i++)
+
+                for (int i = 0; i < Trioen.Length + 1; i++)
                 {
-                    Dice1 = rnd.Next(1, 7);
+                    dice1 = random.Next(1, 7);
 
                     soundPlayer.SoundLocation = $@"{fileLocate}T{Trioen[i, dice1 - 1]}{fileType}";
                     soundPlayer.Load();
