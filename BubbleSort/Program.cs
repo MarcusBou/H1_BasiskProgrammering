@@ -4,6 +4,7 @@ namespace BubbleSort
 {
     class Program
     {
+        //Attributes
         static int[] rndArr = new int[100];
         static Random rnd = new Random();
         static bool swap = false;
@@ -19,6 +20,7 @@ namespace BubbleSort
             {
                 for (int j = 0; j < rndArr.Length - 1; j++)
                 {
+                    //check if the current is larger then the next, if confirmed true switch place
                     if (rndArr[j] > rndArr[j + 1])
                     {
                         int temp = rndArr[j];
@@ -27,16 +29,18 @@ namespace BubbleSort
                         swap = true;
                     }
                 }
+                //if array didnt swap, end loop
                 if (swap == false)
                 {
                     i = 100;
                 }
             }
-
+            //show array
             for (int i = 0; i < rndArr.Length; i++)
             {
                 Console.WriteLine(rndArr[i]);
             }
+            //reverse the array, and then show it
             Array.Reverse(rndArr);
             Console.WriteLine("\n");
             for (int i = 0; i < rndArr.Length; i++)
