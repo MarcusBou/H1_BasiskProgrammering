@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array Ã¸velse 4B", "Array Ã
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "BubbleSort\BubbleSort.csproj", "{7BFA7152-B0AA-46A2-9107-E0CE0F5BE871}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lister", "Lister\Lister.csproj", "{2F225FCF-431A-4C2C-A3C0-299864DA7D7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{7BFA7152-B0AA-46A2-9107-E0CE0F5BE871}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BFA7152-B0AA-46A2-9107-E0CE0F5BE871}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BFA7152-B0AA-46A2-9107-E0CE0F5BE871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F225FCF-431A-4C2C-A3C0-299864DA7D7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F225FCF-431A-4C2C-A3C0-299864DA7D7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F225FCF-431A-4C2C-A3C0-299864DA7D7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F225FCF-431A-4C2C-A3C0-299864DA7D7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
