@@ -35,17 +35,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array øvelse 4", "Array ø
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array øvelse 3", "Array øvelse 3\Array øvelse 3.csproj", "{06D56AD4-1B48-4147-B194-4FED82C9DBE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array øvelse 4B", "Array øvelse 4B\Array øvelse 4B.csproj", "{8BD22660-E214-4817-BA01-A76B923F399C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array øvelse 4B", "Array øvelse 4B\Array øvelse 4B.csproj", "{8BD22660-E214-4817-BA01-A76B923F399C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "BubbleSort\BubbleSort.csproj", "{7BFA7152-B0AA-46A2-9107-E0CE0F5BE871}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BubbleSort", "BubbleSort\BubbleSort.csproj", "{7BFA7152-B0AA-46A2-9107-E0CE0F5BE871}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lister", "Lister\Lister.csproj", "{2F225FCF-431A-4C2C-A3C0-299864DA7D7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lister", "Lister\Lister.csproj", "{2F225FCF-431A-4C2C-A3C0-299864DA7D7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lotto", "Lotto\Lotto.csproj", "{2CA53322-C322-46E8-BDBA-98D47E7BA604}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lotto", "Lotto\Lotto.csproj", "{2CA53322-C322-46E8-BDBA-98D47E7BA604}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mozart", "Mozart\Mozart.csproj", "{13236F16-C4BE-4CB0-85BF-A4E38858EA1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozart", "Mozart\Mozart.csproj", "{13236F16-C4BE-4CB0-85BF-A4E38858EA1E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mozart Framework", "Mozart Framework\Mozart Framework.csproj", "{80E426C3-E5B8-48D4-B0AD-766B14B5F9B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array øvelse 5", "Array øvelse 5\Array øvelse 5.csproj", "{012BA6DA-BD47-4EA0-90E1-D8AEDC6C8B50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{80E426C3-E5B8-48D4-B0AD-766B14B5F9B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80E426C3-E5B8-48D4-B0AD-766B14B5F9B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80E426C3-E5B8-48D4-B0AD-766B14B5F9B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{012BA6DA-BD47-4EA0-90E1-D8AEDC6C8B50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{012BA6DA-BD47-4EA0-90E1-D8AEDC6C8B50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{012BA6DA-BD47-4EA0-90E1-D8AEDC6C8B50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{012BA6DA-BD47-4EA0-90E1-D8AEDC6C8B50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
