@@ -23,17 +23,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Morsecode", "Morsecode\Mors
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Breve Porto", "Breve Porto\Breve Porto.csproj", "{5485B216-30B1-4A38-99DD-2EE65E707732}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IgangMedLøkker", "IgangMedLøkker\IgangMedLøkker.csproj", "{5056BDD5-EB26-43DD-AA14-2BF0591DBEA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IgangMedLøkker", "IgangMedLøkker\IgangMedLøkker.csproj", "{5056BDD5-EB26-43DD-AA14-2BF0591DBEA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array", "Array\Array.csproj", "{D09EB38C-731C-40BD-BEFA-A9FE8F26FFC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array", "Array\Array.csproj", "{D09EB38C-731C-40BD-BEFA-A9FE8F26FFC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array øvelse 1", "Array øvelse 1\Array øvelse 1.csproj", "{CCDE6A3D-CF7B-43D6-9CB0-CB8D8173F25E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array øvelse 1", "Array øvelse 1\Array øvelse 1.csproj", "{CCDE6A3D-CF7B-43D6-9CB0-CB8D8173F25E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array Øvelse 2", "Array Øvelse 2\Array Øvelse 2.csproj", "{36B0D5CA-EB05-43B0-B80E-82795AEA3BC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array Øvelse 2", "Array Øvelse 2\Array Øvelse 2.csproj", "{36B0D5CA-EB05-43B0-B80E-82795AEA3BC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array øvelse 4", "Array øvelse 4\Array øvelse 4.csproj", "{6FA6DDDD-3752-43B7-9025-62251BEACE9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array øvelse 4", "Array øvelse 4\Array øvelse 4.csproj", "{6FA6DDDD-3752-43B7-9025-62251BEACE9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array øvelse 3", "Array øvelse 3\Array øvelse 3.csproj", "{06D56AD4-1B48-4147-B194-4FED82C9DBE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array øvelse 3", "Array øvelse 3\Array øvelse 3.csproj", "{06D56AD4-1B48-4147-B194-4FED82C9DBE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array øvelse 4B", "Array øvelse 4B\Array øvelse 4B.csproj", "{8BD22660-E214-4817-BA01-A76B923F399C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "BubbleSort\BubbleSort.csproj", "{7BFA7152-B0AA-46A2-9107-E0CE0F5BE871}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +109,14 @@ Global
 		{06D56AD4-1B48-4147-B194-4FED82C9DBE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06D56AD4-1B48-4147-B194-4FED82C9DBE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06D56AD4-1B48-4147-B194-4FED82C9DBE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BD22660-E214-4817-BA01-A76B923F399C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BD22660-E214-4817-BA01-A76B923F399C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BD22660-E214-4817-BA01-A76B923F399C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BD22660-E214-4817-BA01-A76B923F399C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BFA7152-B0AA-46A2-9107-E0CE0F5BE871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BFA7152-B0AA-46A2-9107-E0CE0F5BE871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BFA7152-B0AA-46A2-9107-E0CE0F5BE871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BFA7152-B0AA-46A2-9107-E0CE0F5BE871}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
