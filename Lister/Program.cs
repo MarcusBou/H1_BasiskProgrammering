@@ -8,11 +8,13 @@ namespace Lister
     {
         static void Main(string[] args)
         {
+            //Give the list some certain startup values, instead of .add method
             int[] numbers = { 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 };
             List<int> listeB = new List<int>(numbers);
             int[] ReverseNumb = { 20, 18, 16, 14, 12, 10, 8, 6, 4, 2 };
             List<int> listeC = new List<int>(ReverseNumb);
 
+            //Remove and add certain values
             listeB.Remove(6);
             listeB.Remove(12);
             listeB.Remove(15);
@@ -25,6 +27,8 @@ namespace Lister
                 Console.WriteLine(listeB[i]);
             }
             Console.WriteLine("\n");
+
+            //After the assignment en revserse sequence
             listeC.Insert(2, 17);
             listeC.Remove(18);
             listeC.Remove(15);
