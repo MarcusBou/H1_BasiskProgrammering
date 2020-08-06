@@ -47,7 +47,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozart", "Mozart\Mozart.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mozart Framework", "Mozart Framework\Mozart Framework.csproj", "{80E426C3-E5B8-48D4-B0AD-766B14B5F9B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array øvelse 5", "Array øvelse 5\Array øvelse 5.csproj", "{012BA6DA-BD47-4EA0-90E1-D8AEDC6C8B50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array øvelse 5", "Array øvelse 5\Array øvelse 5.csproj", "{012BA6DA-BD47-4EA0-90E1-D8AEDC6C8B50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metoder", "Metoder\Metoder.csproj", "{3FE47E9B-6BEA-45CD-AA97-447BE0C4B400}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metode 2", "Metode 2\Metode 2.csproj", "{F6B3317B-29AE-4A4E-8E61-533C7812184F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuestBook", "GuestBook\GuestBook.csproj", "{22A928B7-8C49-48CD-AECD-D9B86DE79C97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +153,18 @@ Global
 		{012BA6DA-BD47-4EA0-90E1-D8AEDC6C8B50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{012BA6DA-BD47-4EA0-90E1-D8AEDC6C8B50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{012BA6DA-BD47-4EA0-90E1-D8AEDC6C8B50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FE47E9B-6BEA-45CD-AA97-447BE0C4B400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FE47E9B-6BEA-45CD-AA97-447BE0C4B400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FE47E9B-6BEA-45CD-AA97-447BE0C4B400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FE47E9B-6BEA-45CD-AA97-447BE0C4B400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6B3317B-29AE-4A4E-8E61-533C7812184F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6B3317B-29AE-4A4E-8E61-533C7812184F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6B3317B-29AE-4A4E-8E61-533C7812184F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6B3317B-29AE-4A4E-8E61-533C7812184F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22A928B7-8C49-48CD-AECD-D9B86DE79C97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22A928B7-8C49-48CD-AECD-D9B86DE79C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22A928B7-8C49-48CD-AECD-D9B86DE79C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22A928B7-8C49-48CD-AECD-D9B86DE79C97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
