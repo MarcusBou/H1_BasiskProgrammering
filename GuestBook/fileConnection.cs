@@ -36,9 +36,13 @@ namespace GuestBook
             } while (FileExist == false);
         }
 
-        static void addTofile()
+        public void addTofile(string values)
         {
-
+            using (var writer = new StreamWriter(new FileStream(filePath, FileMode.Open)))
+            {
+                writer.Write(values);
+                writer.Close();
+            }
         }
     }
 }

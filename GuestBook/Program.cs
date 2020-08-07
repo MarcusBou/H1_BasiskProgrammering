@@ -5,11 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using System.Runtime.InteropServices;
+using System.Security.Principal;
 
 namespace GuestBook
 {
     class Program
     {
+        static fileConnection fc = new fileConnection();
         static void Main(string[] args)
         {
             bool shutdown = false;
@@ -34,6 +36,7 @@ namespace GuestBook
                 case 1:
                     break;
                 case 2:
+                    AddGuest();
                     break;
                 case 3:
                     break;
@@ -41,8 +44,16 @@ namespace GuestBook
                     Console.WriteLine("You wrote something outta range");
                     break;
             }
+        }
 
-
+        public static void AddGuest()
+        {
+            Console.Clear();
+            Console.WriteLine("Tilføj gæst i gæstebogen, skriv hilsen som så(ditNavn, din@email.dk, din Kommentar)");
+            Console.Write("\n>");
+            string output = Console.ReadLine();
+            Console.WriteLine(output);
+            fc.addTofile(output);
         }
     }
 }
