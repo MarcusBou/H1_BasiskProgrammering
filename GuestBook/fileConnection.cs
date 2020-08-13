@@ -81,7 +81,7 @@ namespace GuestBook
                     string[] replacement = lineOutput[i].Split(',');
                     replacement[2] = valueNeeded;
                     lineOutput[i] = replacement[0] + ", " + replacement[1] + ", " + replacement[2];
-                    Console.WriteLine(lineOutput[i]);
+
                 }
             }
         }
