@@ -10,6 +10,7 @@ namespace GuestBook
     {
         public void AdminLogin()
         {
+            //let you log in to admin console
             Program backToGui = new Program();
             Console.Clear();
             Console.Write("Username: ");

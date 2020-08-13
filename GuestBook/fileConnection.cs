@@ -9,13 +9,19 @@ using System.Xml.Serialization;
 
 namespace GuestBook
 {
+    /// <summary>
+    /// Most of all the work is going in a list, and after every update in list
+    /// it updates file.
+    /// </summary>
     class fileConnection
     {
+        //path ways
         static string folderPath = @"C:\Users\marc8847\Documents\GuestBook";
         static string filePath = @"C:\Users\marc8847\Documents\GuestBook\GuestBookFile.txt";
         static List<string> lineOutput = new List<string>();
         public void createFolderAndFiles()
         {
+            //see if file exist
             bool FileExist = false;
             do
             {
@@ -23,11 +29,13 @@ namespace GuestBook
                 {
                     if (File.Exists(filePath))
                     {
+                        //if fileExist then input lines to a list.
                         FileExist = true;
                         lineOutput = File.ReadAllLines(filePath).ToList();
                     }
                     else
                     {
+                        //if file and filepath doesnt exist, its creates it
                         File.Create(filePath);
                     }
                 }
@@ -52,16 +60,19 @@ namespace GuestBook
 
         public void UpdateTextFile()
         {
+            //Updating file
             File.WriteAllLines(filePath, lineOutput);
         }
 
         public void addTofile(string values)
         {
+            //add to the file
             lineOutput.Add(values);
         }
 
         public string returnSearch(string searchValue)
         {
+            //search in file, and return
             for (int i = 0; i < lineOutput.Count - 1; i++)
             {
                 if (lineOutput[i].Contains(searchValue))
@@ -74,6 +85,7 @@ namespace GuestBook
 
         public void updateComment(string valueNeeded, string searchedValue)
         {
+            //updates Comments
             for (int i = 0; i < lineOutput.Count - 1; i++)
             {
                 if (lineOutput[i].Contains(searchedValue))
@@ -88,6 +100,7 @@ namespace GuestBook
 
         public void RemoveGuestFromFile(string nameSearch)
         {
+            //admin removefrom file
             for (int i = 0; i < lineOutput.Count - 1; i++)
             {
                 if (lineOutput[i].Contains(nameSearch))
@@ -108,6 +121,7 @@ namespace GuestBook
 
         public void UpdateGuestFromFile(string name)
         {
+            //admin updates whole guest
             for (int i = 0; i < lineOutput.Count - 1; i++)
             {
                 if (lineOutput[i].Contains(name))

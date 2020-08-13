@@ -11,21 +11,28 @@ namespace GuestBook
 {
     class Program
     {
+        //fileconnection and adminaccess
         static fileConnection fc = new fileConnection();
         static AdminAccess AA = new AdminAccess();
         static bool shutdown = false;
         static void Main(string[] args)
         {
+            //See if folders exis.
             fc.createFolderAndFiles();
             do
             {
+                //updates text file while working
                 fc.UpdateTextFile();
+                //opens up for GUI
                 GUI();
             } while (shutdown == false);
         }
-
+        /// <summary>
+        /// All of the under is GUI for the protocols in fileConnection and adminAccess
+        /// </summary>
         public static void GUI()
         {
+            //menu to navigate
             Console.Clear();
             Console.WriteLine("Velkommen til Gæstebogen: \n");
             Console.WriteLine("1. Se Gæste Bogen");
