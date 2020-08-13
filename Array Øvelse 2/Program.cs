@@ -21,7 +21,10 @@ namespace Array_Øvelse_2
             for (int i = 0; i < boyName.Length - 1; i++)
             {
                 if (boyName[i].Contains(searchWord))
-                    Console.WriteLine(boyName[i].ToString());
+                    {
+                
+                        Console.WriteLine(boyName[i].ToString());
+                    }
             }
             Console.ReadKey();
         }
